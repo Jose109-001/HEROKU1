@@ -11,7 +11,7 @@ const commentData = [{
         post_id: 2
     },
     {
-        comment_text: "I don't even know if I want to code anymore!",
+        comment_text: "I just want to be a software developer!",
         user_id: 3,
         post_id: 3
     },
