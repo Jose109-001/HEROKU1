@@ -1,0 +1,7 @@
+{{#each posts}}
+    {{> post post=this}}
+    <hr>
+{{else}}
+    <h3>You have no posts yet!</h3>
+    <p>Go ahead and <a class="link" href="/dashboard/new">write something new</a></p>
+{{/each}}

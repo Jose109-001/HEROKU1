@@ -1,0 +1,15 @@
+{{> header}}
+<div class="container">
+    <form id="add-post-form" class="edit-post-form">
+        <label>
+            Title
+            <input name="post-title" type="text" value="{{post.title}}" placeholder="Post title">
+        </label>
+        <label>
+            Content
+            <textarea name="content" cols="30" rows="10" placeholder="Post content">{{post.content}}</textarea>
+        </label>
+        <button>Submit</button>
+    </form>
+</div>
+{{> footer}}

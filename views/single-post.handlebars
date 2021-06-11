@@ -1,0 +1,12 @@
+{{> header }}
+<div class="container">
+    {{> post }}
+    
+    {{#if isOwner}}{{> postActions}}{{/if}}
+    
+    <hr>
+
+    {{> comments}}
+    {{> commentform}}
+</div>
+{{> footer }}

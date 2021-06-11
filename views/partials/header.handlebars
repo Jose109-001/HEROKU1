@@ -1,0 +1,25 @@
+<header>
+    <div class="container">
+        <ul>
+            <li><a href="/">Home</a></li>
+
+            {{!-- Not logged in  --}}
+            {{#unless loggedIn}}
+            <li><a href="/login">Login</a></li>
+            <li><a href="/signup">Signup</a></li>
+            {{/unless}}
+
+            {{!-- Logged in  --}}
+            {{#if loggedIn}}
+            <li><a href="/dashboard">Dashboard</a></li>
+            <li><a href="/dashboard/new">New post</a></li>            
+            <li><a href="#" id="logout">Logout</a></li>
+            
+            {{!-- Logout script --}}
+            <script src="logout.js"></script>
+            {{/if}}
+        </ul>
+
+        <h1><a href="/">The Tech Blog</a></h1>
+    </div>
+</header> 

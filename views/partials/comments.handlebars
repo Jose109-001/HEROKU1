@@ -1,0 +1,11 @@
+<div class="comments-container">
+    <h3>Comments</h3>
+
+    <ol>
+        {{#each post.comments}}
+        <li>
+            {{comment_text}}
+        </li>
+        {{/each}}
+    </ol>
+</div>

@@ -1,0 +1,15 @@
+<div class="container">
+    <h1>{{#ifeq action 'login'}}Login{{else}}Signup{{/ifeq}}</h1>
+    <form
+        id="{{#ifeq action 'login'}}login-form{{else}}signup-form{{/ifeq}}">
+        <label>
+            Username
+            <input type="text" id="username-{{action}}">
+        </label>
+        <label>
+            Password
+            <input type="password" id="password-{{action}}">
+        </label>
+        <button>Submit</button>
+    </form>
+</div>

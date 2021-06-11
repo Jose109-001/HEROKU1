@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Odibee+Sans&display=swap');
+
+body {
+    margin: 0;
+    background: #EEE;
+    font-family: 'Lato';
+}
+
+h1 /*, h2, h3, h4, h5, h6*/ {
+    font-family: 'Odibee Sans';
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+header {
+    background: #311;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.link {
+    color: #396;
+}
+
+li a {
+    padding: 5px 10px;
+    color: white;
+}
+
+header {
+    color: white;
+}
+
+header ul {
+    display: flex;
+    margin-left: -10px;
+}
+
+/* Forms */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+    display: block;
+    margin-top: 5px;
+    padding: 5px 10px;
+}
+
+/* Post styles */
+.created-at {
+    color:#311;
+}
+
+/* Comments */
+.comments-container {}
+
+/* Comments form */
+.comment-form-container {
+    background: #ddd;
+    padding: 20px;
+    box-shadow: inset 0 2px 3px #999;
+    border: 1px solid white;
+}
+.comment-form-container h4 {
+    margin-top: 0;
+}
+.comment-form-container textarea {
+    margin-bottom: 15px;
+}
+
+/* Post actions */
+.post-actions {
+    padding-left: 10px;
+    border-left: 5px solid #C30;
+}
+.edit-post-btn {
+    margin-right: 5px;
+}
+.delete-post-btn {
+    background: #C30;
+    border: 0;
+    color: white;
+    border-radius: 3px;
+    border: 2px solid #C30;
+    padding: 5px 10px;
+    transition: .5s;
+}
+.delete-post-btn:hover {
+    cursor: pointer;
+    background: transparent;
+    color: #C30;
+}
+
+/* Dashboard */
+.dashboard-new-post {
+    margin-top: 20px;
+    padding: 3px 10px 7px;
+    background: #C30;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+}
